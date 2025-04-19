@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">20</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">92,383</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">minitests.AddContactTest</td><td><a href="#m0">testEmptyFields</a></td><td rowspan="1">1745069357799</td><td rowspan="1">4693</td></tr><tr class="failedodd"><td rowspan="1">minitests.ContactListTest</td><td><a href="#m1">testVisibilityOfLogoutBtn</a></td><td rowspan="1">1745069386663</td><td rowspan="1">42</td></tr><tr class="failedeven"><td rowspan="1">minitests.HomeTest</td><td><a href="#m2">testSignUpVisibility</a></td><td rowspan="1">1745069303085</td><td rowspan="1">151</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">minitests.AddContactTest</td><td><a href="#m3">AddDuplicateContacts</a></td><td rowspan="2">1745069349521</td><td rowspan="2">4026</td></tr><tr class="passedeven"><td><a href="#m4">AddDuplicateContacts</a></td></tr><tr class="passedeven"><td><a href="#m5">addContacts</a></td><td rowspan="1">1745069318827</td><td rowspan="1">17053</td></tr><tr class="passedeven"><td><a href="#m6">addOptionalDetails</a></td><td rowspan="1">1745069339813</td><td rowspan="1">5796</td></tr><tr class="passedeven"><td><a href="#m7">testInvalidDate</a></td><td rowspan="1">1745069353553</td><td rowspan="1">4240</td></tr><tr class="passedeven"><td><a href="#m8">testSortAndExtension</a></td><td rowspan="1">1745069335884</td><td rowspan="1">3922</td></tr><tr class="passedodd"><td rowspan="5">minitests.ContactListTest</td><td><a href="#m9">testClickLogoutBtn</a></td><td rowspan="1">1745069387283</td><td rowspan="1">1878</td></tr><tr class="passedodd"><td><a href="#m10">testContactsDisplayed</a></td><td rowspan="1">1745069367280</td><td rowspan="1">3994</td></tr><tr class="passedodd"><td><a href="#m11">testDeleteConatct</a></td><td rowspan="1">1745069379777</td><td rowspan="1">6881</td></tr><tr class="passedodd"><td><a href="#m12">testEditContact</a></td><td rowspan="1">1745069371277</td><td rowspan="1">8306</td></tr><tr class="passedodd"><td><a href="#m13">validateOtherFields</a></td><td rowspan="1">1745069379636</td><td rowspan="1">135</td></tr><tr class="passedeven"><td rowspan="4">minitests.HomeTest</td><td><a href="#m14">testAddusertxt</a></td><td rowspan="1">1745069304709</td><td rowspan="1">162</td></tr><tr class="passedeven"><td><a href="#m15">testSignUpClick</a></td><td rowspan="1">1745069303904</td><td rowspan="1">799</td></tr><tr class="passedeven"><td><a href="#m16">testSignUpClickable</a></td><td rowspan="1">1745069303842</td><td rowspan="1">58</td></tr><tr class="passedeven"><td><a href="#m17">testSignupUser</a></td><td rowspan="1">1745069304875</td><td rowspan="1">1377</td></tr><tr class="passedodd"><td rowspan="5">minitests.LoginTest</td><td><a href="#m18">callTestLogout</a></td><td rowspan="1">1745069311315</td><td rowspan="1">1567</td></tr><tr class="passedodd"><td><a href="#m19">testInvalidDetails</a></td><td rowspan="1">1745069312891</td><td rowspan="1">1637</td></tr><tr class="passedodd"><td><a href="#m20">testLogin</a></td><td rowspan="1">1745069310673</td><td rowspan="1">639</td></tr><tr class="passedodd"><td><a href="#m21">testSubmitClickAble</a></td><td rowspan="1">1745069310607</td><td rowspan="1">60</td></tr><tr class="passedodd"><td><a href="#m22">testSubumitBtnVisible</a></td><td rowspan="1">1745069310457</td><td rowspan="1">132</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">minitests.AddContactTest#testEmptyFields</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at minitests.AddContactTest.testEmptyFields(AddContactTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">minitests.ContactListTest#testVisibilityOfLogoutBtn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at minitests.ContactListTest.testVisibilityOfLogoutBtn(ContactListTest.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">minitests.HomeTest#testSignUpVisibility</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at minitests.HomeTest.testSignUpVisibility(HomeTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">minitests.AddContactTest#AddDuplicateContacts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">minitests.AddContactTest#AddDuplicateContacts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">minitests.AddContactTest#addContacts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">minitests.AddContactTest#addOptionalDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">minitests.AddContactTest#testInvalidDate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">minitests.AddContactTest#testSortAndExtension</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">minitests.ContactListTest#testClickLogoutBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">minitests.ContactListTest#testContactsDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">minitests.ContactListTest#testDeleteConatct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">minitests.ContactListTest#testEditContact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">minitests.ContactListTest#validateOtherFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">minitests.HomeTest#testAddusertxt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">minitests.HomeTest#testSignUpClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">minitests.HomeTest#testSignUpClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">minitests.HomeTest#testSignupUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">minitests.LoginTest#callTestLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">minitests.LoginTest#testInvalidDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">minitests.LoginTest#testLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">minitests.LoginTest#testSubmitClickAble</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">minitests.LoginTest#testSubumitBtnVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

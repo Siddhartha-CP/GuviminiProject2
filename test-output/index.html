@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\siddh\eclipse-workspace\GuviminiProject2\testng_2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 3 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.AddContactTest" class="method navigator-link" hash-for-method="testEmptyFields">testEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.HomeTest" class="method navigator-link" hash-for-method="testSignUpVisibility">testSignUpVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.ContactListTest" class="method navigator-link" hash-for-method="testVisibilityOfLogoutBtn">testVisibilityOfLogoutBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.AddContactTest" class="method navigator-link" hash-for-method="AddDuplicateContacts">AddDuplicateContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.AddContactTest" class="method navigator-link" hash-for-method="AddDuplicateContacts">AddDuplicateContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.AddContactTest" class="method navigator-link" hash-for-method="addContacts">addContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.AddContactTest" class="method navigator-link" hash-for-method="addOptionalDetails">addOptionalDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.LoginTest" class="method navigator-link" hash-for-method="callTestLogout">callTestLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.HomeTest" class="method navigator-link" hash-for-method="testAddusertxt">testAddusertxt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.ContactListTest" class="method navigator-link" hash-for-method="testClickLogoutBtn">testClickLogoutBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.ContactListTest" class="method navigator-link" hash-for-method="testContactsDisplayed">testContactsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.ContactListTest" class="method navigator-link" hash-for-method="testDeleteConatct">testDeleteConatct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.ContactListTest" class="method navigator-link" hash-for-method="testEditContact">testEditContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.AddContactTest" class="method navigator-link" hash-for-method="testInvalidDate">testInvalidDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.LoginTest" class="method navigator-link" hash-for-method="testInvalidDetails">testInvalidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.LoginTest" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.HomeTest" class="method navigator-link" hash-for-method="testSignUpClick">testSignUpClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.HomeTest" class="method navigator-link" hash-for-method="testSignUpClickable">testSignUpClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.HomeTest" class="method navigator-link" hash-for-method="testSignupUser">testSignupUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.AddContactTest" class="method navigator-link" hash-for-method="testSortAndExtension">testSortAndExtension</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.LoginTest" class="method navigator-link" hash-for-method="testSubmitClickAble">testSubmitClickAble</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.LoginTest" class="method navigator-link" hash-for-method="testSubumitBtnVisible">testSubumitBtnVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="minitests.ContactListTest" class="method navigator-link" hash-for-method="validateOtherFields">validateOtherFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">minitests.ContactListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVisibilityOfLogoutBtn">
+                  </a> <!-- testVisibilityOfLogoutBtn -->
+                  <span class="method-name">testVisibilityOfLogoutBtn</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at minitests.ContactListTest.testVisibilityOfLogoutBtn(ContactListTest.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">minitests.AddContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFields">
+                  </a> <!-- testEmptyFields -->
+                  <span class="method-name">testEmptyFields</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at minitests.AddContactTest.testEmptyFields(AddContactTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">minitests.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpVisibility">
+                  </a> <!-- testSignUpVisibility -->
+                  <span class="method-name">testSignUpVisibility</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at minitests.HomeTest.testSignUpVisibility(HomeTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">minitests.ContactListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickLogoutBtn">
+                  </a> <!-- testClickLogoutBtn -->
+                  <span class="method-name">testClickLogoutBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactsDisplayed">
+                  </a> <!-- testContactsDisplayed -->
+                  <span class="method-name">testContactsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteConatct">
+                  </a> <!-- testDeleteConatct -->
+                  <span class="method-name">testDeleteConatct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditContact">
+                  </a> <!-- testEditContact -->
+                  <span class="method-name">testEditContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateOtherFields">
+                  </a> <!-- validateOtherFields -->
+                  <span class="method-name">validateOtherFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">minitests.AddContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddDuplicateContacts">
+                  </a> <!-- AddDuplicateContacts -->
+                  <span class="method-name">AddDuplicateContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddDuplicateContacts">
+                  </a> <!-- AddDuplicateContacts -->
+                  <span class="method-name">AddDuplicateContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContacts">
+                  </a> <!-- addContacts -->
+                  <span class="method-name">addContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addOptionalDetails">
+                  </a> <!-- addOptionalDetails -->
+                  <span class="method-name">addOptionalDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidDate">
+                  </a> <!-- testInvalidDate -->
+                  <span class="method-name">testInvalidDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortAndExtension">
+                  </a> <!-- testSortAndExtension -->
+                  <span class="method-name">testSortAndExtension</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">minitests.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddusertxt">
+                  </a> <!-- testAddusertxt -->
+                  <span class="method-name">testAddusertxt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpClick">
+                  </a> <!-- testSignUpClick -->
+                  <span class="method-name">testSignUpClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpClickable">
+                  </a> <!-- testSignUpClickable -->
+                  <span class="method-name">testSignUpClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignupUser">
+                  </a> <!-- testSignupUser -->
+                  <span class="method-name">testSignupUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">minitests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="callTestLogout">
+                  </a> <!-- callTestLogout -->
+                  <span class="method-name">callTestLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidDetails">
+                  </a> <!-- testInvalidDetails -->
+                  <span class="method-name">testInvalidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitClickAble">
+                  </a> <!-- testSubmitClickAble -->
+                  <span class="method-name">testSubmitClickAble</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubumitBtnVisible">
+                  </a> <!-- testSubumitBtnVisible -->
+                  <span class="method-name">testSubumitBtnVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\siddh\eclipse-workspace\GuviminiProject2\testng_2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.ExtentTestNGITestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;minitests.HomeTest&quot;/&gt;
+      &lt;class name=&quot;minitests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;minitests.AddContactTest&quot;/&gt;
+      &lt;class name=&quot;minitests.ContactListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addContacts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addOptionalDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">callTestLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testClickLogoutBtn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testContactsDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEditContact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInvalidDate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInvalidDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSortAndExtension</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addContacts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testClickLogoutBtn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testContactsDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeleteConatct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEmptyFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSortAndExtension</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubmitClickAble</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubumitBtnVisible</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addContacts')
+data.setCell(0, 2, 'minitests.AddContactTest')
+data.setCell(0, 3, 17053);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testEditContact')
+data.setCell(1, 2, 'minitests.ContactListTest')
+data.setCell(1, 3, 8306);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDeleteConatct')
+data.setCell(2, 2, 'minitests.ContactListTest')
+data.setCell(2, 3, 6881);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addOptionalDetails')
+data.setCell(3, 2, 'minitests.AddContactTest')
+data.setCell(3, 3, 5796);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testEmptyFields')
+data.setCell(4, 2, 'minitests.AddContactTest')
+data.setCell(4, 3, 4693);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testInvalidDate')
+data.setCell(5, 2, 'minitests.AddContactTest')
+data.setCell(5, 3, 4240);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AddDuplicateContacts')
+data.setCell(6, 2, 'minitests.AddContactTest')
+data.setCell(6, 3, 4026);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testContactsDisplayed')
+data.setCell(7, 2, 'minitests.ContactListTest')
+data.setCell(7, 3, 3994);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSortAndExtension')
+data.setCell(8, 2, 'minitests.AddContactTest')
+data.setCell(8, 3, 3922);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AddDuplicateContacts')
+data.setCell(9, 2, 'minitests.AddContactTest')
+data.setCell(9, 3, 3902);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testClickLogoutBtn')
+data.setCell(10, 2, 'minitests.ContactListTest')
+data.setCell(10, 3, 1878);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testInvalidDetails')
+data.setCell(11, 2, 'minitests.LoginTest')
+data.setCell(11, 3, 1637);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'callTestLogout')
+data.setCell(12, 2, 'minitests.LoginTest')
+data.setCell(12, 3, 1567);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSignupUser')
+data.setCell(13, 2, 'minitests.HomeTest')
+data.setCell(13, 3, 1377);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSignUpClick')
+data.setCell(14, 2, 'minitests.HomeTest')
+data.setCell(14, 3, 799);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testLogin')
+data.setCell(15, 2, 'minitests.LoginTest')
+data.setCell(15, 3, 639);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testAddusertxt')
+data.setCell(16, 2, 'minitests.HomeTest')
+data.setCell(16, 3, 162);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSignUpVisibility')
+data.setCell(17, 2, 'minitests.HomeTest')
+data.setCell(17, 3, 151);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateOtherFields')
+data.setCell(18, 2, 'minitests.ContactListTest')
+data.setCell(18, 3, 135);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSubumitBtnVisible')
+data.setCell(19, 2, 'minitests.LoginTest')
+data.setCell(19, 3, 132);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSubmitClickAble')
+data.setCell(20, 2, 'minitests.LoginTest')
+data.setCell(20, 3, 60);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSignUpClickable')
+data.setCell(21, 2, 'minitests.HomeTest')
+data.setCell(21, 3, 58);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testVisibilityOfLogoutBtn')
+data.setCell(22, 2, 'minitests.ContactListTest')
+data.setCell(22, 3, 42);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">minitests.ContactListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">minitests.AddContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">minitests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">minitests.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSignUpVisibility</span>
+                <span class="method-start">4551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSignUpVisibility status=FAILURE method=HomeTest.testSignUpVisibility()[pri:1, i...)</span>
+                <span class="method-start">4720 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSignUpClickable</span>
+                <span class="method-start">5308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSignUpClickable status=SUCCESS method=HomeTest.testSignUpClickable()[pri:2, ins...)</span>
+                <span class="method-start">5368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSignUpClick</span>
+                <span class="method-start">5370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSignUpClick status=SUCCESS method=HomeTest.testSignUpClick()[pri:3, instance:mi...)</span>
+                <span class="method-start">6173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testAddusertxt</span>
+                <span class="method-start">6175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testAddusertxt status=SUCCESS method=HomeTest.testAddusertxt()[pri:4, instance:mini...)</span>
+                <span class="method-start">6340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSignupUser</span>
+                <span class="method-start">6341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSignupUser status=SUCCESS method=HomeTest.testSignupUser()[pri:5, instance:mini...)</span>
+                <span class="method-start">7727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7728 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">minitests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">8261 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSubumitBtnVisible</span>
+                <span class="method-start">11923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSubumitBtnVisible status=SUCCESS method=LoginTest.testSubumitBtnVisible()[pri:1...)</span>
+                <span class="method-start">12070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSubmitClickAble</span>
+                <span class="method-start">12073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSubmitClickAble status=SUCCESS method=LoginTest.testSubmitClickAble()[pri:2, in...)</span>
+                <span class="method-start">12137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">12139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin()[pri:3, instance:minitests.Log...)</span>
+                <span class="method-start">12780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">callTestLogout</span>
+                <span class="method-start">12781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=callTestLogout status=SUCCESS method=LoginTest.callTestLogout()[pri:5, instance:min...)</span>
+                <span class="method-start">14353 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInvalidDetails</span>
+                <span class="method-start">14357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testInvalidDetails status=SUCCESS method=LoginTest.testInvalidDetails()[pri:6, inst...)</span>
+                <span class="method-start">15996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15998 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">minitests.AddContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">16573 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addContacts</span>
+                <span class="method-start">20293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=addContacts status=SUCCESS method=AddContactTest.addContacts()[pri:1, instance:mini...)</span>
+                <span class="method-start">37348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSortAndExtension</span>
+                <span class="method-start">37350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSortAndExtension status=SUCCESS method=AddContactTest.testSortAndExtension()[pr...)</span>
+                <span class="method-start">41276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addOptionalDetails</span>
+                <span class="method-start">41279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=addOptionalDetails status=SUCCESS method=AddContactTest.addOptionalDetails()[pri:3,...)</span>
+                <span class="method-start">47077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AddDuplicateContacts</span>
+                <span class="method-start">47081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=AddDuplicateContacts status=SUCCESS method=AddContactTest.AddDuplicateContacts()[pr...)</span>
+                <span class="method-start">50985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AddDuplicateContacts</span>
+                <span class="method-start">50987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=AddDuplicateContacts status=SUCCESS method=AddContactTest.AddDuplicateContacts()[pr...)</span>
+                <span class="method-start">55016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInvalidDate</span>
+                <span class="method-start">55019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testInvalidDate status=SUCCESS method=AddContactTest.testInvalidDate()[pri:5, insta...)</span>
+                <span class="method-start">59263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testEmptyFields</span>
+                <span class="method-start">59265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testEmptyFields status=FAILURE method=AddContactTest.testEmptyFields()[pri:6, insta...)</span>
+                <span class="method-start">63961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64438 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">minitests.ContactListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">64971 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testContactsDisplayed</span>
+                <span class="method-start">68746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testContactsDisplayed status=SUCCESS method=ContactListTest.testContactsDisplayed()...)</span>
+                <span class="method-start">72742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEditContact</span>
+                <span class="method-start">72743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testEditContact status=SUCCESS method=ContactListTest.testEditContact()[pri:2, inst...)</span>
+                <span class="method-start">81051 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateOtherFields</span>
+                <span class="method-start">81102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=validateOtherFields status=SUCCESS method=ContactListTest.validateOtherFields()[pri...)</span>
+                <span class="method-start">81240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteConatct</span>
+                <span class="method-start">81243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testDeleteConatct status=SUCCESS method=ContactListTest.testDeleteConatct()[pri:4, ...)</span>
+                <span class="method-start">88127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testVisibilityOfLogoutBtn</span>
+                <span class="method-start">88129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testVisibilityOfLogoutBtn status=FAILURE method=ContactListTest.testVisibilityOfLog...)</span>
+                <span class="method-start">88177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testClickLogoutBtn</span>
+                <span class="method-start">88749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testClickLogoutBtn status=SUCCESS method=ContactListTest.testClickLogoutBtn()[pri:6...)</span>
+                <span class="method-start">90631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90632 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">minitests.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">91057 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

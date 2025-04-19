@@ -1,0 +1,2 @@
+18:59:49.156 [main] INFO  minitests.LoginTest - Submit button is visible
+18:59:49.161 [main] INFO  minitests.ContactListTest - Logout successful, and Submit button is visible on login page.
