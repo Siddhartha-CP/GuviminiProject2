@@ -55,13 +55,13 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 19 18:58:18 IST 2025</td>
+<td>Started on:</td><td>Tue Apr 22 23:32:41 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>92 seconds (92383 ms)</td>
+<tr><td>Total time:</td><td>76 seconds (76718 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td></td>
+<td>Included groups:</td><td>regression sanity </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
@@ -80,8 +80,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [false] but found [true]
 	at minitests.HomeTest.testSignUpVisibility(HomeTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1765865093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1765865093'><pre>java.lang.AssertionError: expected [false] but found [true]
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1171672359", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1171672359'><pre>java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertFalse(Assert.java:79)
@@ -115,19 +115,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>minitests.HomeTest@5a9d6f02</td></tr>
+<td>minitests.HomeTest@626c44e7</td></tr>
 <tr>
-<td title='minitests.ContactListTest.testVisibilityOfLogoutBtn()'><b>testVisibilityOfLogoutBtn</b><br>Test class: minitests.ContactListTest</td>
-<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
-	at minitests.ContactListTest.testVisibilityOfLogoutBtn(ContactListTest.java:97)
+<td title='minitests.ContactListTest.testDeleteConatct()'><b>testDeleteConatct</b><br>Test class: minitests.ContactListTest</td>
+<td><div><pre>java.lang.AssertionError: Email not found after delete operation expected [true] but found [false]
+	at minitests.ContactListTest.testDeleteConatct(ContactListTest.java:90)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1750184598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1750184598'><pre>java.lang.AssertionError: expected [false] but found [true]
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace88094983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace88094983'><pre>java.lang.AssertionError: Email not found after delete operation expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertFalse(Assert.java:79)
-	at org.testng.Assert.assertFalse(Assert.java:89)
-	at minitests.ContactListTest.testVisibilityOfLogoutBtn(ContactListTest.java:97)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at minitests.ContactListTest.testDeleteConatct(ContactListTest.java:90)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -155,15 +154,56 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>0</td>
-<td>minitests.ContactListTest@aafcffa</td></tr>
+<td>4</td>
+<td>minitests.ContactListTest@68044f4</td></tr>
+<tr>
+<td title='minitests.ContactListTest.testContactsDisplayed()'><b>testContactsDisplayed</b><br>Test class: minitests.ContactListTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at minitests.ContactListTest.testContactsDisplayed(ContactListTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1651831324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651831324'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at minitests.ContactListTest.testContactsDisplayed(ContactListTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>minitests.ContactListTest@68044f4</td></tr>
 <tr>
 <td title='minitests.AddContactTest.testEmptyFields()'><b>testEmptyFields</b><br>Test class: minitests.AddContactTest</td>
 <td><div><pre>java.lang.AssertionError: expected [false] but found [true]
 	at minitests.AddContactTest.testEmptyFields(AddContactTest.java:144)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace303300540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace303300540'><pre>java.lang.AssertionError: expected [false] but found [true]
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace219396780", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace219396780'><pre>java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertFalse(Assert.java:79)
@@ -197,7 +237,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>4</td>
-<td>minitests.AddContactTest@dfddc9a</td></tr>
+<td>minitests.AddContactTest@3a1dd365</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -208,105 +248,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='minitests.LoginTest.testInvalidDetails()'><b>testInvalidDetails</b><br>Test class: minitests.LoginTest</td>
+<td title='minitests.AddContactTest.testSortAndExtension()'><b>testSortAndExtension</b><br>Test class: minitests.AddContactTest</td>
 <td></td>
 <td>1</td>
-<td>minitests.LoginTest@349c1daf</td></tr>
-<tr>
-<td title='minitests.HomeTest.testSignUpClickable()'><b>testSignUpClickable</b><br>Test class: minitests.HomeTest</td>
-<td></td>
-<td>0</td>
-<td>minitests.HomeTest@5a9d6f02</td></tr>
-<tr>
-<td title='minitests.LoginTest.testSubmitClickAble()'><b>testSubmitClickAble</b><br>Test class: minitests.LoginTest</td>
-<td></td>
-<td>0</td>
-<td>minitests.LoginTest@349c1daf</td></tr>
-<tr>
-<td title='minitests.AddContactTest.AddDuplicateContacts()'><b>AddDuplicateContacts</b><br>Test class: minitests.AddContactTest</td>
-<td></td>
-<td>4</td>
-<td>minitests.AddContactTest@dfddc9a</td></tr>
-<tr>
-<td title='minitests.LoginTest.testSubumitBtnVisible()'><b>testSubumitBtnVisible</b><br>Test class: minitests.LoginTest</td>
-<td></td>
-<td>0</td>
-<td>minitests.LoginTest@349c1daf</td></tr>
-<tr>
-<td title='minitests.ContactListTest.testDeleteConatct()'><b>testDeleteConatct</b><br>Test class: minitests.ContactListTest</td>
-<td></td>
-<td>6</td>
-<td>minitests.ContactListTest@aafcffa</td></tr>
-<tr>
-<td title='minitests.HomeTest.testSignupUser()'><b>testSignupUser</b><br>Test class: minitests.HomeTest</td>
-<td></td>
-<td>1</td>
-<td>minitests.HomeTest@5a9d6f02</td></tr>
-<tr>
-<td title='minitests.ContactListTest.testContactsDisplayed()'><b>testContactsDisplayed</b><br>Test class: minitests.ContactListTest</td>
-<td></td>
-<td>3</td>
-<td>minitests.ContactListTest@aafcffa</td></tr>
-<tr>
-<td title='minitests.HomeTest.testAddusertxt()'><b>testAddusertxt</b><br>Test class: minitests.HomeTest</td>
-<td></td>
-<td>0</td>
-<td>minitests.HomeTest@5a9d6f02</td></tr>
-<tr>
-<td title='minitests.AddContactTest.addContacts()'><b>addContacts</b><br>Test class: minitests.AddContactTest</td>
-<td></td>
-<td>17</td>
-<td>minitests.AddContactTest@dfddc9a</td></tr>
-<tr>
-<td title='minitests.ContactListTest.testEditContact()'><b>testEditContact</b><br>Test class: minitests.ContactListTest</td>
-<td></td>
-<td>8</td>
-<td>minitests.ContactListTest@aafcffa</td></tr>
-<tr>
-<td title='minitests.AddContactTest.addOptionalDetails()'><b>addOptionalDetails</b><br>Test class: minitests.AddContactTest</td>
-<td></td>
-<td>5</td>
-<td>minitests.AddContactTest@dfddc9a</td></tr>
+<td>minitests.AddContactTest@3a1dd365</td></tr>
 <tr>
 <td title='minitests.LoginTest.testLogin()'><b>testLogin</b><br>Test class: minitests.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>minitests.LoginTest@349c1daf</td></tr>
-<tr>
-<td title='minitests.AddContactTest.testInvalidDate()'><b>testInvalidDate</b><br>Test class: minitests.AddContactTest</td>
-<td></td>
-<td>4</td>
-<td>minitests.AddContactTest@dfddc9a</td></tr>
-<tr>
-<td title='minitests.ContactListTest.validateOtherFields()'><b>validateOtherFields</b><br>Test class: minitests.ContactListTest</td>
-<td></td>
-<td>0</td>
-<td>minitests.ContactListTest@aafcffa</td></tr>
+<td>minitests.LoginTest@6b7906b3</td></tr>
 <tr>
 <td title='minitests.LoginTest.callTestLogout()'><b>callTestLogout</b><br>Test class: minitests.LoginTest</td>
 <td></td>
 <td>1</td>
-<td>minitests.LoginTest@349c1daf</td></tr>
+<td>minitests.LoginTest@6b7906b3</td></tr>
 <tr>
-<td title='minitests.AddContactTest.testSortAndExtension()'><b>testSortAndExtension</b><br>Test class: minitests.AddContactTest</td>
-<td></td>
-<td>3</td>
-<td>minitests.AddContactTest@dfddc9a</td></tr>
-<tr>
-<td title='minitests.HomeTest.testSignUpClick()'><b>testSignUpClick</b><br>Test class: minitests.HomeTest</td>
+<td title='minitests.LoginTest.testSubmitClickAble()'><b>testSubmitClickAble</b><br>Test class: minitests.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>minitests.HomeTest@5a9d6f02</td></tr>
+<td>minitests.LoginTest@6b7906b3</td></tr>
 <tr>
-<td title='minitests.AddContactTest.AddDuplicateContacts()'><b>AddDuplicateContacts</b><br>Test class: minitests.AddContactTest</td>
+<td title='minitests.ContactListTest.testEditContact()'><b>testEditContact</b><br>Test class: minitests.ContactListTest</td>
 <td></td>
-<td>3</td>
-<td>minitests.AddContactTest@dfddc9a</td></tr>
+<td>8</td>
+<td>minitests.ContactListTest@68044f4</td></tr>
+<tr>
+<td title='minitests.AddContactTest.addContacts()'><b>addContacts</b><br>Test class: minitests.AddContactTest</td>
+<td></td>
+<td>16</td>
+<td>minitests.AddContactTest@3a1dd365</td></tr>
+<tr>
+<td title='minitests.AddContactTest.addOptionalDetails()'><b>addOptionalDetails</b><br>Test class: minitests.AddContactTest</td>
+<td></td>
+<td>5</td>
+<td>minitests.AddContactTest@3a1dd365</td></tr>
 <tr>
 <td title='minitests.ContactListTest.testClickLogoutBtn()'><b>testClickLogoutBtn</b><br>Test class: minitests.ContactListTest</td>
 <td></td>
+<td>2</td>
+<td>minitests.ContactListTest@68044f4</td></tr>
+<tr>
+<td title='minitests.LoginTest.testSubumitBtnVisible()'><b>testSubumitBtnVisible</b><br>Test class: minitests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>minitests.LoginTest@6b7906b3</td></tr>
+<tr>
+<td title='minitests.LoginTest.testInvalidDetails()'><b>testInvalidDetails</b><br>Test class: minitests.LoginTest</td>
+<td></td>
 <td>1</td>
-<td>minitests.ContactListTest@aafcffa</td></tr>
+<td>minitests.LoginTest@6b7906b3</td></tr>
+<tr>
+<td title='minitests.AddContactTest.testInvalidDate()'><b>testInvalidDate</b><br>Test class: minitests.AddContactTest</td>
+<td></td>
+<td>4</td>
+<td>minitests.AddContactTest@3a1dd365</td></tr>
 </table><p>
 </body>
 </html>

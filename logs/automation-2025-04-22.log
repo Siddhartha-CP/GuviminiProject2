@@ -1,0 +1,53 @@
+23:23:10.071 [main] INFO  minitests.ContactListTest - **** Starting Test: testDeleteConatct ****
+23:23:11.147 [main] INFO  minitests.ContactListTest - Contact list count before delete: 5
+23:23:13.935 [main] INFO  minitests.ContactListTest - **** Starting Test: testClickLogoutBtn ****
+23:23:14.636 [main] INFO  minitests.LoginTest - **** Starting Test: testSubumitBtnVisible ****
+23:23:15.596 [main] INFO  minitests.LoginTest - Submit button is visible
+23:23:15.596 [main] INFO  minitests.ContactListTest - Logout successful, and Submit button is visible on login page.
+23:26:15.293 [main] INFO  minitests.HomeTest - **** Starting Test: testSignUpVisibility ****
+23:26:15.301 [main] INFO  minitests.HomeTest - Intentionally failing this test case for screenshot on failure
+23:26:35.725 [main] INFO  minitests.AddContactTest - **** Starting Test: addContacts ****
+23:26:42.133 [main] INFO  minitests.AddContactTest - Add New Contact button clicked successfully
+23:26:44.541 [main] INFO  minitests.AddContactTest - Filled contact form with test data
+23:26:44.730 [main] INFO  minitests.AddContactTest - Contact submitted successfully
+23:26:47.604 [main] INFO  minitests.AddContactTest - Add New Contact button clicked successfully
+23:26:50.480 [main] INFO  minitests.AddContactTest - Filled contact form with test data
+23:26:50.644 [main] INFO  minitests.AddContactTest - Contact submitted successfully
+23:26:53.355 [main] INFO  minitests.AddContactTest - Add New Contact button clicked successfully
+23:26:55.543 [main] INFO  minitests.AddContactTest - Filled contact form with test data
+23:26:55.694 [main] INFO  minitests.AddContactTest - Contact submitted successfully
+23:26:55.859 [main] INFO  minitests.AddContactTest - **** Starting Test: testSortAndExtension ****
+23:26:57.480 [main] INFO  minitests.AddContactTest - **** Starting Test: addOptionalDetails ****
+23:27:02.222 [main] INFO  minitests.AddContactTest - Submitted form without first and last name
+23:27:03.137 [main] INFO  minitests.AddContactTest - **** Starting Test: testInvalidDate ****
+23:27:07.187 [main] INFO  minitests.AddContactTest - DOB validation message verified
+23:27:07.195 [main] INFO  minitests.AddContactTest - **** Starting Test: testEmptyFields (expected failure for screenshot) ****
+23:27:17.101 [main] INFO  minitests.ContactListTest - **** Starting Test: testContactsDisplayed ****
+23:27:20.422 [main] INFO  minitests.ContactListTest - **** Starting Test: testEditContact ****
+23:27:22.060 [main] INFO  minitests.ContactListTest - Before Edit - Address: Wdc 123, State: New York
+23:27:29.144 [main] INFO  minitests.ContactListTest - Edit contact test passed with values - Name: SHARK, Email: edit@edit.com, Phone: 1234567891
+23:27:29.155 [main] INFO  minitests.ContactListTest - **** Starting Test: testDeleteConatct ****
+23:27:30.109 [main] INFO  minitests.ContactListTest - Contact list count before delete: 9
+23:27:33.421 [main] INFO  minitests.ContactListTest - **** Starting Test: testClickLogoutBtn ****
+23:27:34.171 [main] INFO  minitests.LoginTest - **** Starting Test: testSubumitBtnVisible ****
+23:27:34.987 [main] INFO  minitests.LoginTest - Submit button is visible
+23:27:34.987 [main] INFO  minitests.ContactListTest - Logout successful, and Submit button is visible on login page.
+23:32:47.135 [main] INFO  minitests.HomeTest - **** Starting Test: testSignUpVisibility ****
+23:32:47.147 [main] INFO  minitests.HomeTest - Intentionally failing this test case for screenshot on failure
+23:32:52.172 [main] INFO  minitests.LoginTest - **** Starting Test: testSubumitBtnVisible ****
+23:32:52.313 [main] INFO  minitests.LoginTest - Submit button is visible
+23:32:52.322 [main] INFO  minitests.LoginTest - **** Starting Test: testSubmitClickAble ****
+23:32:52.387 [main] INFO  minitests.LoginTest - Submit button is clickable
+23:32:52.395 [main] INFO  minitests.LoginTest - **** Starting Test: testLogin ****
+23:32:53.054 [main] INFO  minitests.LoginTest - Login successful
+23:32:53.061 [main] INFO  minitests.LoginTest - **** Starting Test: callTestLogout ****
+23:32:54.709 [main] INFO  minitests.LoginTest - Logout executed successfully
+23:32:54.727 [main] INFO  minitests.LoginTest - **** Starting Test: testInvalidDetails ****
+23:32:56.427 [main] INFO  minitests.LoginTest - Invalid login scenario validated successfully
+23:33:00.892 [main] INFO  minitests.AddContactTest - **** Starting Test: addContacts ****
+23:33:04.472 [main] INFO  minitests.AddContactTest - Add New Contact button clicked successfully
+23:33:06.776 [main] INFO  minitests.AddContactTest - Filled contact form with test data
+23:33:06.947 [main] INFO  minitests.AddContactTest - Contact submitted successfully
+23:33:09.669 [main] INFO  minitests.AddContactTest - Add New Contact button clicked successfully
+23:33:11.914 [main] INFO  minitests.AddContactTest - Filled contact form with test data
+23:33:12.089 [main] INFO  minitests.AddContactTest - Contact submitted successfully

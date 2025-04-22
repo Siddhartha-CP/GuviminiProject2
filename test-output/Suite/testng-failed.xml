@@ -6,28 +6,32 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="Browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="minitests.ContactListTest">
-        <methods>
-          <include name="tearDownTest"/>
-          <include name="testVisibilityOfLogoutBtn"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="screenshot"/>
-        </methods>
-      </class> <!-- minitests.ContactListTest -->
       <class name="minitests.AddContactTest">
         <methods>
-          <include name="tearDownTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="testEmptyFields"/>
           <include name="screenshot"/>
         </methods>
       </class> <!-- minitests.AddContactTest -->
+      <class name="minitests.ContactListTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testDeleteConatct"/>
+          <include name="screenshot"/>
+          <include name="testContactsDisplayed"/>
+        </methods>
+      </class> <!-- minitests.ContactListTest -->
       <class name="minitests.HomeTest">
         <methods>
-          <include name="tearDownTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="testSignUpVisibility"/>

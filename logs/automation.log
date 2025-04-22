@@ -1,2 +1,19 @@
-18:59:49.156 [main] INFO  minitests.LoginTest - Submit button is visible
-18:59:49.161 [main] INFO  minitests.ContactListTest - Logout successful, and Submit button is visible on login page.
+23:33:15.021 [main] INFO  minitests.AddContactTest - Add New Contact button clicked successfully
+23:33:17.109 [main] INFO  minitests.AddContactTest - Filled contact form with test data
+23:33:17.292 [main] INFO  minitests.AddContactTest - Contact submitted successfully
+23:33:17.495 [main] INFO  minitests.AddContactTest - **** Starting Test: testSortAndExtension ****
+23:33:19.426 [main] INFO  minitests.AddContactTest - **** Starting Test: addOptionalDetails ****
+23:33:24.155 [main] INFO  minitests.AddContactTest - Submitted form without first and last name
+23:33:25.237 [main] INFO  minitests.AddContactTest - **** Starting Test: testInvalidDate ****
+23:33:29.365 [main] INFO  minitests.AddContactTest - DOB validation message verified
+23:33:29.373 [main] INFO  minitests.AddContactTest - **** Starting Test: testEmptyFields (expected failure for screenshot) ****
+23:33:38.883 [main] INFO  minitests.ContactListTest - **** Starting Test: testContactsDisplayed ****
+23:33:42.510 [main] INFO  minitests.ContactListTest - **** Starting Test: testEditContact ****
+23:33:44.044 [main] INFO  minitests.ContactListTest - Before Edit - Address: Wdc 123, State: New York
+23:33:51.127 [main] INFO  minitests.ContactListTest - Edit contact test passed with values - Name: SHARK, Email: edit@edit.com, Phone: 1234567891
+23:33:51.135 [main] INFO  minitests.ContactListTest - **** Starting Test: testDeleteConatct ****
+23:33:52.322 [main] INFO  minitests.ContactListTest - Contact list count before delete: 13
+23:33:55.885 [main] INFO  minitests.ContactListTest - **** Starting Test: testClickLogoutBtn ****
+23:33:56.820 [main] INFO  minitests.LoginTest - **** Starting Test: testSubumitBtnVisible ****
+23:33:57.915 [main] INFO  minitests.LoginTest - Submit button is visible
+23:33:57.915 [main] INFO  minitests.ContactListTest - Logout successful, and Submit button is visible on login page.

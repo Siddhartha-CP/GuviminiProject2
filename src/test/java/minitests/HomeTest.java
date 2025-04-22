@@ -54,10 +54,10 @@ public class HomeTest extends BaseClass {
 		logger.info("**** Starting Test: testSignupUser ****");
 		adduserpage = new SignUpDetailsPage(BaseClass.driver);
 
-		adduserpage.getfNameTetxBox("Siddhartha");
-		adduserpage.getlNameTetxBox("c");
-		adduserpage.getfemailTetxBox("Siddu@123.com");
-		adduserpage.getpasswordTetxBox("Siddu@123");
+		adduserpage.getfNameTetxBox("SIDDHARTHA");
+		adduserpage.getlNameTetxBox("C");
+		adduserpage.getfemailTetxBox("Siddha@1234.com");
+		adduserpage.getpasswordTetxBox("Siddha@855");
 
 		logger.info("Filled signup form with valid data");
 

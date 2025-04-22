@@ -1,10 +1,14 @@
 package basepackage;
 
 import java.io.File;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.Map;
+import java.util.HashMap;
+
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,6 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -53,10 +58,25 @@ public class BaseClass {
 		
 	
 
-		switch (brow.toLowerCase()) {
-		case "chrome":
-			driver = new ChromeDriver();
-			break;
+			switch (brow.toLowerCase()) {
+	        case "chrome":
+	        	 ChromeOptions options = new ChromeOptions();
+	        	    options.addArguments("--disable-blink-features=AutomationControlled");
+	        	    options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+	        	    options.setExperimentalOption("useAutomationExtension", false);
+	        	    options.addArguments("--disable-notifications");
+	        	    options.addArguments("--disable-popup-blocking");
+
+	        	    Map<String, Object> prefs = new HashMap<>();
+	        	    prefs.put("profile.default_content_setting_values.notifications", 2);
+	        	    prefs.put("credentials_enable_service", false);
+	        	    prefs.put("profile.password_manager_enabled", false);
+	        	    prefs.put("autofill.profile_enabled", false);  // ⛔ DISABLE ADDRESS PROMPT
+	        	    prefs.put("autofill.address_enabled", false);  // optional redundancy
+
+	        	    options.setExperimentalOption("prefs", prefs);
+	            driver = new ChromeDriver(options);
+	            break;
 		case "edge":
 			driver = new EdgeDriver();
 			break;
